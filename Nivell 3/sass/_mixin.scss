@@ -1,0 +1,14 @@
+@mixin strip-settings($color, $name, $duration, $timing) {
+    background-color: $color;
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+  }
+  
+  @mixin animacion($name, $x, $y, $z) {
+    @keyframes #{$name} {
+      from {
+        transform: translate3d($x, $y, $z);
+      }
+    }
+  }

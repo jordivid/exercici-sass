@@ -1,0 +1,18 @@
+$blue: #244F75;
+$cyan: #60BFBF;
+$purple: #8C4B7E;
+$pale-yellow: #F8BB44;
+$pale-red: #F24B4B;
+$duration-level1: 0.5s;
+$duration-level2: 0.7s;
+$duration-level3: 0.8s;
+$duration-level4: 1s;
+$duration-level5: 1.1s;
+
+$strip-params: (
+    ($blue, strip--u4rx9pe, $duration-level1, -100%, 0, 0),
+    ($cyan, strip--u4rx9pg, $duration-level3, 0, 100%, 0),
+    ($purple, strip--u4rx9q8, $duration-level2, 0, -100%, 0),
+    ($pale-yellow, strip--u4rx9qn, $duration-level4, 0, 100%, 0),
+    ($pale-red, strip--u4rx9r0, $duration-level5, 100%, 0, 0)
+);
